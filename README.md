@@ -3,6 +3,7 @@
 A simple, practical banner for Android.
 
 <img src="/preview/preview1.png" height="400px"></img>
+<img src="/preview/preview2.png" height="400px"></img>
 
 # Usage
 
