@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.handsome.fastbanner.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="样式一" />
+
+    <com.handsome.library.banner.FastBanner
+        android:id="@+id/fast_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fb_banner_ratio="3.2"
+        app:fb_indication_gap="4dp"
+        app:fb_indication_gravity="right"
+        app:fb_indication_off="@drawable/indication_off"
+        app:fb_indication_on="@drawable/indication_on"
+        app:fb_indication_size="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="样式二" />
+
+    <com.handsome.library.banner.FastBanner
+        android:id="@+id/fast_banner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fb_banner_ratio="3.2"
+        app:fb_indication_gap="4dp"
+        app:fb_indication_gravity="center"
+        app:fb_indication_off="@drawable/indication_off"
+        app:fb_indication_on="@drawable/indication_on"
+        app:fb_indication_size="8dp" />
+
+</LinearLayout>

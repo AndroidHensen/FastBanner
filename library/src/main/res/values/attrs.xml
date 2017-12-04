@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FastBanner">
+        <attr name="fb_indication_size" format="dimension" />
+        <attr name="fb_indication_gap" format="dimension" />
+        <attr name="fb_indication_on" format="color|reference" />
+        <attr name="fb_indication_off" format="color|reference" />
+        <attr name="fb_indication_gravity" format="enum">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="fb_banner_ratio" format="float"/>
+    </declare-styleable>
+
+</resources>
