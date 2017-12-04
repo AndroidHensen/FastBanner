@@ -84,7 +84,7 @@ fast_banner.setAdapter(new BannerAdapter() {
 	}
 
 	/**
-	 * Options:return banner title
+	 * Options:return banner title,default closed
 	 */
 	@Override
 	public String getTitle(int position) {
@@ -92,7 +92,7 @@ fast_banner.setAdapter(new BannerAdapter() {
 	}
 	
 	/**
-	 * Options:default the
+	 * Options:default true
 	 */
 	@Override
 	public boolean autoScroll() {
