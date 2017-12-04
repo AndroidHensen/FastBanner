@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.handsome.fastbanner.IndicationActivity">
+
+    <com.handsome.library.banner.FastBanner
+        android:id="@+id/fast_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fb_banner_ratio="3.2"
+        app:fb_indication_gap="4dp"
+        app:fb_indication_gravity="center"
+        app:fb_indication_off="@drawable/indication_off"
+        app:fb_indication_on="@drawable/indication_on"
+        app:fb_indication_size="8dp" />
+</android.support.constraint.ConstraintLayout>

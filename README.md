@@ -27,7 +27,7 @@ Add the dependency
 
 ```
 dependencies {
-	compile 'com.github.AndroidHensen:FastBanner:1.0'
+	compile 'com.github.AndroidHensen:FastBanner:1.0.1'
 }
 ```
 
@@ -103,6 +103,8 @@ fast_banner.setAdapter(new BannerAdapter() {
 
 # Changelog
 
+* 1.0.1
+    * Add the left and right allows an infinite loop
 * 1.0
 	* Initial release
 	

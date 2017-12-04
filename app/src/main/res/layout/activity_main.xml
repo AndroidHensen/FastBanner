@@ -5,40 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context="com.handsome.fastbanner.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
+        android:onClick="TitleAndIndication"
         android:text="样式一" />
 
-    <com.handsome.library.banner.FastBanner
-        android:id="@+id/fast_banner"
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:fb_banner_ratio="3.2"
-        app:fb_indication_gap="4dp"
-        app:fb_indication_gravity="right"
-        app:fb_indication_off="@drawable/indication_off"
-        app:fb_indication_on="@drawable/indication_on"
-        app:fb_indication_size="8dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
+        android:onClick="Indication"
         android:text="样式二" />
 
-    <com.handsome.library.banner.FastBanner
-        android:id="@+id/fast_banner2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:fb_banner_ratio="3.2"
-        app:fb_indication_gap="4dp"
-        app:fb_indication_gravity="center"
-        app:fb_indication_off="@drawable/indication_off"
-        app:fb_indication_on="@drawable/indication_on"
-        app:fb_indication_size="8dp" />
 
 </LinearLayout>

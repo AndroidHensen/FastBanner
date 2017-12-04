@@ -53,6 +53,7 @@ public class BannerViewPager extends ViewPager {
     public void setAdapter(BannerAdapter adapter) {
         this.mBannerAdapter = adapter;
         setAdapter(new BannerPagerAdapter());
+        setCurrentItem(mBannerAdapter.getCount()*1000);
 
         if (mBannerAdapter.autoScroll()) {
             startRoll();
