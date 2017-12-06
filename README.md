@@ -40,7 +40,7 @@ Add FastBanner in your layout
 <com.handsome.library.banner.FastBanner
 	android:id="@+id/fast_banner"
 	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
+	android:layout_height="wrap_content"                // if wrap_content or 0dp should set attr fb_banner_ratio
 	app:fb_banner_ratio="3.2"                           // value = width/height
 	app:fb_indication_gap="4dp"                         // default 4dp
 	app:fb_indication_gravity="right"                   // default right
