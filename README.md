@@ -104,6 +104,8 @@ fast_banner.setAdapter(new BannerAdapter() {
 
 # Changelog
 
+* 1.0.2
+    * Change the banner title defalut is gone
 * 1.0.1
     * Add the left and right allows an infinite loop
 * 1.0

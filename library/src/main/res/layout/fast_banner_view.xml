@@ -19,7 +19,8 @@
         android:paddingLeft="16dp"
         android:paddingTop="4dp"
         android:text="广告标题"
-        android:textColor="#ffffff" />
+        android:textColor="#ffffff"
+        android:visibility="gone" />
 
     <LinearLayout
         android:id="@+id/fb__indication"

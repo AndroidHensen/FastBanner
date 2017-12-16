@@ -180,9 +180,8 @@ public class FastBanner extends RelativeLayout {
         newIndicationView.setDrawable(mIndicationOnDrawable);
 
         //title
-        if (mAdapter.getTitle(mCurrentPosition) == null) {
-            fb__title.setVisibility(GONE);
-        } else {
+        if (mAdapter.getTitle(mCurrentPosition) != null) {
+            fb__title.setVisibility(VISIBLE);
             fb__title.setText(mAdapter.getTitle(mCurrentPosition));
         }
     }
