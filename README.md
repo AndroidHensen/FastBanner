@@ -106,6 +106,7 @@ fast_banner.setAdapter(new BannerAdapter() {
 
 * 1.0.2
     * Change the banner title defalut is gone
+    * Modify the minSdkVersion 14
 * 1.0.1
     * Add the left and right allows an infinite loop
 * 1.0
