@@ -106,6 +106,7 @@ public class FastBanner extends RelativeLayout {
     private void initIndication(Context context) {
         int count = mAdapter.getCount();
 
+        fb__indication.removeAllViews();
         fb__indication.setGravity(getIndicationGravity());
 
         for (int i = 0; i < count; i++) {

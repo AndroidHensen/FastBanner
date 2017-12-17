@@ -28,7 +28,7 @@ Add the dependency
 
 ```
 dependencies {
-	compile 'com.github.AndroidHensen:FastBanner:1.0.4'
+	compile 'com.github.AndroidHensen:FastBanner:1.0.5'
 }
 ```
 
@@ -104,6 +104,8 @@ fast_banner.setAdapter(new BannerAdapter() {
 
 # Changelog
 
+* 1.0.5
+    * Fix duplicate add indicator
 * 1.0.4
     * Change FastBanner file path
 * 1.0.3
