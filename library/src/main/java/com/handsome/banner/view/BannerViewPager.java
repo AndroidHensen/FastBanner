@@ -1,4 +1,4 @@
-package com.handsome.library.view;
+package com.handsome.banner.view;
 
 import android.content.Context;
 import android.os.Handler;
@@ -10,8 +10,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.handsome.library.adapter.BannerAdapter;
-import com.handsome.library.utils.BannerScroller;
+import com.handsome.banner.adapter.BannerAdapter;
+import com.handsome.banner.utils.BannerScroller;
 
 import java.lang.reflect.Field;
 

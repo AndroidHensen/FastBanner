@@ -1,4 +1,4 @@
-package com.handsome.library.adapter;
+package com.handsome.banner.adapter;
 
 import android.view.View;
 

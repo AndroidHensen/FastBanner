@@ -1,4 +1,4 @@
-package com.handsome.library.view;
+package com.handsome.banner.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;

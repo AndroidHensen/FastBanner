@@ -1,4 +1,4 @@
-package com.handsome.library.banner;
+package com.handsome.banner.banner;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -7,17 +7,16 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.handsome.library.R;
-import com.handsome.library.adapter.BannerAdapter;
-import com.handsome.library.view.BannerViewPager;
-import com.handsome.library.view.IndicationView;
+import com.handsome.banner.R;
+import com.handsome.banner.adapter.BannerAdapter;
+import com.handsome.banner.view.BannerViewPager;
+import com.handsome.banner.view.IndicationView;
 
 /**
  * Created by handsomexu on 2017/12/3.

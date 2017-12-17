@@ -1,4 +1,4 @@
-package com.handsome.library.utils;
+package com.handsome.banner.utils;
 
 import android.content.Context;
 import android.view.animation.Interpolator;
