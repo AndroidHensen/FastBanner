@@ -1,4 +1,4 @@
-package com.handsome.banner.banner;
+package com.handsome.banner;
 
 import android.content.Context;
 import android.content.res.TypedArray;

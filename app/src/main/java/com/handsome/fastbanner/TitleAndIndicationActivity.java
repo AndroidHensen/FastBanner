@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.handsome.banner.adapter.BannerAdapter;
-import com.handsome.banner.banner.FastBanner;
+import com.handsome.banner.FastBanner;
 
 import java.util.ArrayList;
 import java.util.List;

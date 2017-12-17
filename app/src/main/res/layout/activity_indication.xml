@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.handsome.fastbanner.IndicationActivity">
 
-    <com.handsome.banner.banner.FastBanner
+    <com.handsome.banner.FastBanner
         android:id="@+id/fast_banner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
